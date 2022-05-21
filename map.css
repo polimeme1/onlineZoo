@@ -1,0 +1,209 @@
+body {
+    min-width: 720px;
+}
+@media (min-width: 1281px) and (max-width: 2500px) {
+body {
+    margin: 0;
+    background-color: #2A8086;
+}
+header, footer {
+    position: relative;
+    background-color: #2A8086;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 1200px;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.8387px;
+    line-height: 41px;
+    color: #0D444D;
+    z-index: 1;
+    box-shadow: 5px 0px 10px #277979;
+}
+footer {
+    height: 130px;
+    background-color: #2A8088;
+}
+.index {
+    text-decoration: none;
+    color: #0D444D;
+}
+nav {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.header-left, .footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 11.4%;
+}
+.header-logo {
+    margin-right: 5.3px;
+}
+.header-right, .footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 72px;
+}
+.btn a, .my-link a {
+    background: #2A8088;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #C5E1E6;
+    white-space: nowrap;
+    min-width: fit-content;
+    margin-left: 53.2px;
+}
+.btn--active {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+.searching {
+    margin-right: 19px;
+}
+.btn--log-and-sign a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 23px;
+}
+.btn--framed {
+    border-radius: 100px;
+    border: 1px solid #C5E1E6;
+    padding: 14px;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #C5E1E6;
+    margin-left: 220px;
+}
+.background {
+    background-image: url(./static/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 916.25px;
+}
+}
+@media (min-width: 0px) and (max-width: 1280px)  {
+    body {
+        margin: 0;
+        background-color: #2A8086;
+    }
+    header, footer {
+        position: relative;
+        background-color: #2A8086;
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+        min-width: 1200px;
+        align-items: center;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34.8387px;
+        line-height: 41px;
+        color: #0D444D;
+        z-index: 1;
+        box-shadow: 5px 0px 10px #277979;
+    }
+    footer {
+        height: 130px;
+        background-color: #2A8088;
+    }
+    .index {
+        text-decoration: none;
+        color: #0D444D;
+    }
+    nav {
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+    .header-left, .footer-left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 11.4%;
+    }
+    .header-logo {
+        margin-right: 5.3px;
+    }
+    .header-right, .footer-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 72px;
+    }
+    .btn a, .my-link a {
+        background: #2A8088;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #C5E1E6;
+        white-space: nowrap;
+        min-width: fit-content;
+        margin-left: 53.2px;
+    }
+    .btn--active {
+        text-decoration-line: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+    }
+    .searching {
+        margin-right: 19px;
+    }
+    .btn--log-and-sign a {
+        font-family: 'Roboto';
+        font-weight: 400;
+        line-height: 21px;
+        margin-left: 23px;
+    }
+    .btn--framed {
+        border-radius: 100px;
+        border: 1px solid #C5E1E6;
+        padding: 14px;
+    }
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #C5E1E6;
+        margin-left: 220px;
+    }
+    .background {
+        background-image: url(./static/map.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: auto;
+        height: 916.25px;
+    }
+    }

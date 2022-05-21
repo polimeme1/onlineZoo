@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./log_and_sign.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Register</title>
+  </head>
+
+  <body>
+    <header class="page-header">
+      <a href="index.html" class="index">
+        <div class="header-logo">
+        <span class="online">online</span>
+        <div class="z-and-log">
+          <span class="online z-logo">Z</span>
+          <img src="/static/Eyes.png" />
+        </div>
+      </div>
+      </a>
+    </header>
+        <div class="sliders">
+          <button class="registrationact">create an account</button>
+          <button class="login">log in</button>
+        </div>
+        <div class="slide">
+          <img src="/static/Rectangle 27.png" />
+        </div>
+        <div class="google-facebook">
+          <button class="btn btn--google">
+            <div class="google-logo">
+              <img src="./static/Google Logo.png" />
+              <span>Google Sign in</span>
+            </div>
+          </button>
+          <button class="btn btn--facebook">
+            <div class="facebook-logo">
+              <img src="./static/Facebook Logo.png" />
+              <span>Facebook Sign in</span>
+            </div>
+          </button>
+        </div>
+        <form name="forms" onsubmit="return validate_reg();">
+          <div class="inputs">
+            <div class="name">
+              <label for="name" class="label-class">name</label><br />
+              <input type="text" class="input-class" id="name" name="name" />
+            </div>
+            <div class="email">
+              <label for="email" class="label-class">email</label><br />
+              <input
+                type="text"
+                class="input-class"
+                id="email"
+                name="email"
+              /><br />
+            </div>
+            <div class="password">
+              <label for="password" class="label-class">password</label><br />
+              <input type="password" class="input-class input--password" id="password-input" name="password">
+              <br /><br />
+              <a href="#" class="password-control" onclick="return show_hide_password(this);" id="pass-con">Show password</a>
+            </div>
+          </div>
+          <div class="agreement">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="agree"
+              name="agree"
+              value="agree"
+            />
+            <label for="agree" class="agree"
+              >Agree with the User Agreement and Privacy Policy</label
+            ><br />
+          </div>
+          <div class="send">
+            <input type="submit" class="btn btn--send" value="send">
+          </div>
+        </form>
+      <script src="script.js"></script>
+  </body>
+</html>
